@@ -1,0 +1,50 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+
+
+ENTITY parseToVector IS 
+	PORT
+	(
+		ARDUINOIO2 :  IN  STD_LOGIC;
+		ARDUINOIO3 :  IN  STD_LOGIC;
+		ARDUINOIO4 : IN  STD_LOGIC;
+		ARDUINOIO5 : IN  STD_LOGIC;
+		ARDUINOIO6 : IN  STD_LOGIC;
+		ARDUINOIO7 : IN  STD_LOGIC;
+		ARDUINOIO8 : IN  STD_LOGIC;
+		ARDUINOIO9 : IN  STD_LOGIC;
+		ARDUINOIO10 : IN  STD_LOGIC;
+		ARDUINOIO11 : IN  STD_LOGIC;
+		dataBus : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+		controlBus : OUT STD_LOGIC_VECTOR(2 DOWNTO 0)
+	);
+END parseToVector;
+
+
+ARCHITECTURE parseToVector OF parseToVector IS 
+signal dataBus_aux : STD_LOGIC_VECTOR(6 DOWNTO 0);
+signal controlBus_aux : STD_LOGIC_VECTOR(2 DOWNTO 0);
+
+begin
+
+process
+begin
+--data bus
+dataBus_aux(0) <= ARDUINOIO2;
+dataBus_aux(1) <= ARDUINOIO3;
+dataBus_aux(2) <= ARDUINOIO4;
+dataBus_aux(3) <= ARDUINOIO6;
+dataBus_aux(4) <= ARDUINOIO6;
+dataBus_aux(5) <= ARDUINOIO7;
+dataBus_aux(6) <= ARDUINOIO8;
+dataBus <= dataBus_aux;
+
+--control bus
+controlBus_aux(0) <= ARDUINOIO9;
+controlBus_aux(1) <= ARDUINOIO10;
+controlBus_aux(2) <= ARDUINOIO11;
+controlBus <= controlBus_aux;
+
+end process;
+
+END parseToVector;
