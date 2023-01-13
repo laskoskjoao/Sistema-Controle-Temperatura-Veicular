@@ -6,7 +6,7 @@
 
 ![alt text](https://drive.google.com/uc?export=view&id=11ijzEebFXgtK-wUC_wyAL1eGUhaXDQMT)
 
-![alt text](https://drive.google.com/uc?export=view&id=1bue_FwoVqMb6x71IojNfb2X00jiSPABH
+![alt text](https://drive.google.com/uc?export=view&id=1bue_FwoVqMb6x71IojNfb2X00jiSPABH)
 
  O trabalho foi realizado por João Victor Laskoski e Luis Camilo Jussiani Moreira. 
 
