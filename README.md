@@ -11,6 +11,3 @@
  O trabalho foi realizado por João Victor Laskoski e Luis Camilo Jussiani Moreira. 
 
  Para o melhor entendimento, recomenda-se a leitura dos documentos "CONOPS & Especificação" e "Design,Estudo da Plataforma" anexados dentro da pasta "Relatório".
-
-
-https://drive.google.com/file/d/1bue_FwoVqMb6x71IojNfb2X00jiSPABH/view?usp=share_link
