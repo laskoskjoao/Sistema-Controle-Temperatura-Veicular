@@ -1,0 +1,21 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+
+
+ENTITY convertToASCII IS 
+	PORT
+	(
+		unitInput: in std_logic_vector (3 downto 0);			--BCD do dígito da unidade
+		tenInput: in std_logic_vector (3 downto 0);			--BCD do dígito da dezena
+		HundredInput: in std_logic_vector (3 downto 0);		--BCD do dígito da centena
+		unitOutput:	out integer;
+		tenOutput:	out integer;
+		HundredOutput:	out integer
+	);
+END convertToASCII;
+
+
+ARCHITECTURE convertToASCII OF convertToASCII IS 
+
+
+END convertToASCII;

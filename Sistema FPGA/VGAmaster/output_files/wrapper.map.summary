@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Dec 19 19:02:47 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : wrapper
+Top-level Entity Name : Block3
+Family : MAX 10
+Total logic elements : 1,191
+    Total combinational functions : 1,027
+    Dedicated logic registers : 474
+Total registers : 474
+Total pins : 58
+Total virtual pins : 0
+Total memory bits : 249,642
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

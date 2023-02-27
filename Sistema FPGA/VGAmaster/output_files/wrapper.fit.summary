@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Dec 19 19:03:06 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : wrapper
+Top-level Entity Name : Block3
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 1,175 / 49,760 ( 2 % )
+    Total combinational functions : 1,030 / 49,760 ( 2 % )
+    Dedicated logic registers : 474 / 49,760 ( < 1 % )
+Total registers : 474
+Total pins : 58 / 360 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 249,642 / 1,677,312 ( 15 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
